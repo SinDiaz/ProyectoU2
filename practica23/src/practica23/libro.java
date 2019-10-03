@@ -1,4 +1,3 @@
-
 package practica23;
 
 /**
@@ -6,10 +5,11 @@ package practica23;
  * @author 18PROGB0133
  */
 public class libro {
-  private String Autor;
-  private String Titulo;
-   private String ISBN;
-   private String Paginas;
+
+    private String Autor;
+    private String Titulo;
+    private String ISBN;
+    private String Paginas;
 
     public libro() {
     }
@@ -57,6 +57,5 @@ public class libro {
     public String toString() {
         return "libro{" + "Autor=" + Autor + ", Titulo=" + Titulo + ", ISBN=" + ISBN + ", Paguinas=" + Paginas + '}';
     }
-   
-   
+
 }
