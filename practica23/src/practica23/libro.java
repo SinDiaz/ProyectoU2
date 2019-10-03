@@ -8,17 +8,17 @@ public class libro {
 
     private String Autor;
     private String Titulo;
-    private String ISBN;
-    private String Paginas;
+    private int ISBN;
+    private int Paginas;
 
     public libro() {
     }
 
-    public libro(String Autor, String Titulo, String ISBN, String Paguinas) {
+    public libro(String Autor, String Titulo, int ISBN, int Paginas) {
         this.Autor = Autor;
         this.Titulo = Titulo;
         this.ISBN = ISBN;
-        this.Paginas = Paguinas;
+        this.Paginas = Paginas;
     }
 
     public String getAutor() {
@@ -37,25 +37,26 @@ public class libro {
         this.Titulo = Titulo;
     }
 
-    public String getISBN() {
+    public int getISBN() {
         return ISBN;
     }
 
-    public void setISBN(String ISBN) {
+    public void setISBN(int ISBN) {
         this.ISBN = ISBN;
     }
 
-    public String getPaguinas() {
+    public int getPaginas() {
         return Paginas;
     }
 
-    public void setPaguinas(String Paguinas) {
-        this.Paginas = Paguinas;
+    public void setPaginas(int Paginas) {
+        this.Paginas = Paginas;
     }
 
     @Override
     public String toString() {
-        return "libro{" + "Autor=" + Autor + ", Titulo=" + Titulo + ", ISBN=" + ISBN + ", Paguinas=" + Paginas + '}';
+        return "libro{" + "Autor=" + Autor + ", Titulo=" + Titulo + ", ISBN=" + ISBN + ", Paginas=" + Paginas + '}';
     }
+
 
 }
