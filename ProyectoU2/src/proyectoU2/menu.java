@@ -67,7 +67,7 @@ public class menu extends javax.swing.JFrame {
         jButton1.setText("jButton1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
-        setTitle("menu");
+        setTitle("Menu");
         setResizable(false);
 
         btnSalir.setText("Salir");
@@ -86,7 +86,7 @@ public class menu extends javax.swing.JFrame {
 
         lblimagen01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagen01.jpg"))); // NOI18N
 
-        jMenu4.setText("subtemas");
+        jMenu4.setText("Subtemas");
 
         jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F12, java.awt.event.InputEvent.ALT_MASK | java.awt.event.InputEvent.CTRL_MASK));
         jMenuItem1.setText("Acetil Coenzima");
@@ -126,7 +126,7 @@ public class menu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu4);
 
-        jMenu5.setText("ayuda");
+        jMenu5.setText("Ayuda");
 
         jMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.ALT_MASK | java.awt.event.InputEvent.CTRL_MASK));
         jMenuItem5.setText("Acerca de");

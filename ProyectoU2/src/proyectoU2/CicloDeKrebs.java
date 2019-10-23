@@ -71,6 +71,11 @@ public class CicloDeKrebs extends javax.swing.JFrame {
         });
 
         btnMostrarpdf.setText("Mostrar pdf");
+        btnMostrarpdf.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMostrarpdfActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -123,6 +128,11 @@ public class CicloDeKrebs extends javax.swing.JFrame {
     private void btnAtrásActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAtrásActionPerformed
         dispose();
     }//GEN-LAST:event_btnAtrásActionPerformed
+
+    private void btnMostrarpdfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMostrarpdfActionPerformed
+        Proceso manual = new Proceso();
+       manual.cargarArchivo();
+    }//GEN-LAST:event_btnMostrarpdfActionPerformed
 
     /**
      * @param args the command line arguments

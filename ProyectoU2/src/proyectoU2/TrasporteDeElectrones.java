@@ -129,8 +129,8 @@ public class TrasporteDeElectrones extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSalirActionPerformed
 
     private void btnMostrarpdfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMostrarpdfActionPerformed
-        TrasporteDeElectrones Documentos =new TrasporteDeElectrones();
-       Documentos.setVisible(true);
+        Proceso manual = new Proceso();
+       manual.cargarArchivo();
     }//GEN-LAST:event_btnMostrarpdfActionPerformed
 
     /**
