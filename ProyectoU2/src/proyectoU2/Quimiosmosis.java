@@ -52,7 +52,7 @@ public class Quimiosmosis extends javax.swing.JFrame {
         txtContenido.setForeground(new java.awt.Color(0, 0, 255));
         txtContenido.setLineWrap(true);
         txtContenido.setRows(5);
-        txtContenido.setText("La rotura completa de una molécula de glucosa en presencia de oxígeno es denominada respiración celular. Las últimas etapas de este proceso ocurren en la mitocondria. Las moléculas de alta energía NADH y FADH2 -generadas por el ciclo de Krebs- liberan los electrones hacia una cadena transportadora de electrones para crear una gradiente de protones a través de la membrana interna mitocondrial. La ATP-sintasa es luego usado para generar ATP por quimiosmosis. Este proceso se conoce como fosforilación oxidativa porque el oxígeno es el último aceptor electrónico en la cadena transportadora mitocondrial.");
+        txtContenido.setText("La rotura completa de una molécula de glucosa en presencia de oxígeno es denominada respiración celular. Las últimas etapas de este proceso ocurren en la mitocondria.\nLas moléculas de alta energía NADH y FADH2 -generadas por el ciclo de Krebs- liberan los electrones hacia una cadena transportadora de electrones para crear una gradiente de protones a través de la membrana interna mitocondrial.\nLa ATP-sintasa es luego usado para generar ATP por quimiosmosis.\nEste proceso se conoce como fosforilaciónoxidativa porque el oxígeno es el último aceptor electrónico en la cadena transportadora mitocondrial.");
         jScrollPane1.setViewportView(txtContenido);
 
         btnAtrás.setText("Atrás");

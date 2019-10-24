@@ -106,7 +106,7 @@
             </Property>
             <Property name="lineWrap" type="boolean" value="true"/>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="La rotura completa de una mol&#xe9;cula de glucosa en presencia de ox&#xed;geno es denominada respiraci&#xf3;n celular. Las &#xfa;ltimas etapas de este proceso ocurren en la mitocondria. Las mol&#xe9;culas de alta energ&#xed;a NADH y FADH2 -generadas por el ciclo de Krebs- liberan los electrones hacia una cadena transportadora de electrones para crear una gradiente de protones a trav&#xe9;s de la membrana interna mitocondrial. La ATP-sintasa es luego usado para generar ATP por quimiosmosis. Este proceso se conoce como fosforilaci&#xf3;n oxidativa porque el ox&#xed;geno es el &#xfa;ltimo aceptor electr&#xf3;nico en la cadena transportadora mitocondrial."/>
+            <Property name="text" type="java.lang.String" value="La rotura completa de una mol&#xe9;cula de glucosa en presencia de ox&#xed;geno es denominada respiraci&#xf3;n celular. Las &#xfa;ltimas etapas de este proceso ocurren en la mitocondria.&#xa;Las mol&#xe9;culas de alta energ&#xed;a NADH y FADH2 -generadas por el ciclo de Krebs- liberan los electrones hacia una cadena transportadora de electrones para crear una gradiente de protones a trav&#xe9;s de la membrana interna mitocondrial.&#xa;La ATP-sintasa es luego usado para generar ATP por quimiosmosis.&#xa;Este proceso se conoce como fosforilaci&#xf3;noxidativa porque el ox&#xed;geno es el &#xfa;ltimo aceptor electr&#xf3;nico en la cadena transportadora mitocondrial."/>
           </Properties>
         </Component>
       </SubComponents>
