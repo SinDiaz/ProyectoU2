@@ -73,7 +73,7 @@ public class AcetilCoenzima extends javax.swing.JFrame {
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagen00.jpg"))); // NOI18N
 
-        btnMostrarpdf.setText("Mostrar pdf");
+        btnMostrarpdf.setText("Mostrar PDF");
         btnMostrarpdf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMostrarpdfActionPerformed(evt);
