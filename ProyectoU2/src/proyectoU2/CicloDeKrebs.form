@@ -101,7 +101,7 @@
             </Property>
             <Property name="lineWrap" type="boolean" value="true"/>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="El ciclo del &#xe1;cido c&#xed;trico es una v&#xed;a metab&#xf3;lica clave que unifica el metabolismo de los carbohidratos, las grasas y las prote&#xed;nas. Las reacciones del ciclo son llevadas a cabo por 8 enzimas que oxidan completamente el acetato, en forma de acetil-CoA, y se liberan dos mol&#xe9;culas por cada una, de di&#xf3;xido de carbono y agua. A trav&#xe9;s del catabolismo de az&#xfa;cares, grasas y prote&#xed;nas, se produce un acetato de producto org&#xe1;nico de dos carbonos en forma de acetil-CoA que entra en el ciclo de &#xe1;cido c&#xed;trico. Las reacciones del ciclo tambi&#xe9;n convierten tres equivalentes de nicotinamida adenina dinucle&#xf3;tido (NAD +) en tres de NAD + reducido (NADH), un equivalente de flavina adenina dinucle&#xf3;tido  (FAD) en una de FADH2 y un equivalente de guanosina difosfato ) Y fosfato inorg&#xe1;nico (Pi) en una de trifosfato de guanosina (GTP). El NADH y el FADH2 generados por el ciclo del &#xe1;cido c&#xed;trico son a su vez utilizados por la v&#xed;a de la fosforilaci&#xf3;n oxidativa para generar trifosfato de adenosina rico en energ&#xed;a (ATP)."/>
+            <Property name="text" type="java.lang.String" value="El ciclo del &#xe1;cido c&#xed;trico es una v&#xed;a metab&#xf3;lica clave que unifica el metabolismo de los carbohidratos, las grasas y las prote&#xed;nas. Las reacciones del ciclo son llevadas a cabo por 8 enzimas que oxidan completamente el acetato, en forma de acetil-CoA, y se liberan dos mol&#xe9;culas por cada una, de di&#xf3;xido de carbono y agua. A trav&#xe9;s del catabolismo de az&#xfa;cares, grasas y prote&#xed;nas, se produce un acetato de producto org&#xe1;nico de dos carbonos en forma de acetil-CoA que entra en el ciclo de &#xe1;cido c&#xed;trico. Las reacciones del ciclo tambi&#xe9;n convierten tres equivalentes de nicotinamida adenina dinucle&#xf3;tido (NAD +) en tres de NAD + reducido (NADH), un equivalente de flavina adenina dinucle&#xf3;tido  (FAD) en una de FADH2 y un equivalente de guanosina difosfato ) Y fosfato inorg&#xe1;nico (Pi) en una de trifosfato de guanosina (GTP). &#xa;El NADH y el FADH2 generados por el ciclo del &#xe1;cido c&#xed;trico son a su vez utilizados por la v&#xed;a de la fosforilaci&#xf3;n oxidativa para generar trifosfato de adenosina rico en energ&#xed;a (ATP)."/>
           </Properties>
         </Component>
       </SubComponents>
@@ -131,7 +131,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnMostrarpdf">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Mostrar pdf"/>
+        <Property name="text" type="java.lang.String" value="Mostrar PDF"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMostrarpdfActionPerformed"/>

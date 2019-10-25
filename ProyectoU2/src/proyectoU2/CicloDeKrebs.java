@@ -51,7 +51,7 @@ public class CicloDeKrebs extends javax.swing.JFrame {
         txtContenido.setForeground(new java.awt.Color(0, 0, 204));
         txtContenido.setLineWrap(true);
         txtContenido.setRows(5);
-        txtContenido.setText("El ciclo del ácido cítrico es una vía metabólica clave que unifica el metabolismo de los carbohidratos, las grasas y las proteínas. Las reacciones del ciclo son llevadas a cabo por 8 enzimas que oxidan completamente el acetato, en forma de acetil-CoA, y se liberan dos moléculas por cada una, de dióxido de carbono y agua. A través del catabolismo de azúcares, grasas y proteínas, se produce un acetato de producto orgánico de dos carbonos en forma de acetil-CoA que entra en el ciclo de ácido cítrico. Las reacciones del ciclo también convierten tres equivalentes de nicotinamida adenina dinucleótido (NAD +) en tres de NAD + reducido (NADH), un equivalente de flavina adenina dinucleótido  (FAD) en una de FADH2 y un equivalente de guanosina difosfato ) Y fosfato inorgánico (Pi) en una de trifosfato de guanosina (GTP). El NADH y el FADH2 generados por el ciclo del ácido cítrico son a su vez utilizados por la vía de la fosforilación oxidativa para generar trifosfato de adenosina rico en energía (ATP).");
+        txtContenido.setText("El ciclo del ácido cítrico es una vía metabólica clave que unifica el metabolismo de los carbohidratos, las grasas y las proteínas. Las reacciones del ciclo son llevadas a cabo por 8 enzimas que oxidan completamente el acetato, en forma de acetil-CoA, y se liberan dos moléculas por cada una, de dióxido de carbono y agua. A través del catabolismo de azúcares, grasas y proteínas, se produce un acetato de producto orgánico de dos carbonos en forma de acetil-CoA que entra en el ciclo de ácido cítrico. Las reacciones del ciclo también convierten tres equivalentes de nicotinamida adenina dinucleótido (NAD +) en tres de NAD + reducido (NADH), un equivalente de flavina adenina dinucleótido  (FAD) en una de FADH2 y un equivalente de guanosina difosfato ) Y fosfato inorgánico (Pi) en una de trifosfato de guanosina (GTP). \nEl NADH y el FADH2 generados por el ciclo del ácido cítrico son a su vez utilizados por la vía de la fosforilación oxidativa para generar trifosfato de adenosina rico en energía (ATP).");
         jScrollPane1.setViewportView(txtContenido);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagen0.11_1.jpg"))); // NOI18N
@@ -70,7 +70,7 @@ public class CicloDeKrebs extends javax.swing.JFrame {
             }
         });
 
-        btnMostrarpdf.setText("Mostrar pdf");
+        btnMostrarpdf.setText("Mostrar PDF");
         btnMostrarpdf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMostrarpdfActionPerformed(evt);

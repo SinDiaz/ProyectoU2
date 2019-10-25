@@ -69,7 +69,7 @@ public class TrasporteDeElectrones extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagen05.jpg"))); // NOI18N
 
-        btnMostrarpdf.setText("Mostrar pdf");
+        btnMostrarpdf.setText("Mostrar PDF");
         btnMostrarpdf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMostrarpdfActionPerformed(evt);
@@ -96,7 +96,7 @@ public class TrasporteDeElectrones extends javax.swing.JFrame {
                             .addComponent(btnAtrás, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabel1)))
-                .addContainerGap(35, Short.MAX_VALUE))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
